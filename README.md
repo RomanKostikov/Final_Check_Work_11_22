@@ -28,3 +28,4 @@
 2. В результате получаем решенную задачу.
 
 ## Приложение 
+![Блок-схема](https://github.com/RomanKostikov/Final_Check_Work_11_22/blob/main/Final_Check_Work_1122.jpg)
