@@ -28,10 +28,11 @@ void PrintArray(string[] arr)
 }
 string[] FindSize(string[] arr)
 {
+    int sizeLimit = 3;
     string line = string.Empty;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i].Length <= 3)
+        if (arr[i].Length <= sizeLimit)
         {
             line += arr[i] + ' ';
         }
