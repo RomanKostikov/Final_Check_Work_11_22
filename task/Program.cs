@@ -8,7 +8,8 @@ void Main()
 {
     string[] ourArray = FillArray();
     PrintArray(ourArray);
-    string[] newArray = FindSize(ourArray);
+    int sizeLimit = 3;
+    string[] newArray = FindSize(ourArray, sizeLimit);
     Console.Write("-> ");
     PrintArray(newArray);
 }
@@ -26,9 +27,9 @@ void PrintArray(string[] arr)
         Console.Write($"{arr[i]} ");
     }
 }
-string[] FindSize(string[] arr)
+string[] FindSize(string[] arr, int sizeLimit)
 {
-    int sizeLimit = 3;
+    // int sizeLimit = 3;
     string line = string.Empty;
     for (int i = 0; i < arr.Length; i++)
     {
